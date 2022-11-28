@@ -229,3 +229,46 @@ img{
 .p1{
     zoom:50%;
 }
+.foot{
+    background-color: #f5f7fa;
+    font-size: 27px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: #505050;
+}
+.title {
+    flex-grow: 0;
+    padding-right: 1rem;
+    padding-left: 2rem;
+ }
+.divider {
+    flex-grow:20;
+    border-bottom: 1px solid #ccc;
+}
+.blk{
+    height: 12px;
+    content: "";
+    display: block;
+    background-color: #00baf2;
+    height: 24px;
+}
+.lbg{
+    background-color: #002970;
+}
+.ini{
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+}
+.padd{
+    padding-left: 50px;
+    text-align:start;
+    line-height: 40px;
+    width: 450px;
+    padding-top: 20px;
+}
