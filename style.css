@@ -4,6 +4,7 @@
     background: #fff;
     display: flex;
     align-items: center;
+ 
 }
 .box{
     display: flex;
@@ -224,7 +225,7 @@ img{
     margin-left: 300px;
 }
 .setrit{
-    margin-right: 300px;
+    margin-right: 200px;
 }
 .p1{
     zoom:50%;
@@ -271,4 +272,30 @@ img{
     line-height: 40px;
     width: 450px;
     padding-top: 20px;
+}
+._2blcs {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+._iYPz{
+    display: flex;
+    flex-wrap: row;
+    width: auto;
+    background: #00baf2;
+    padding: 2px 1px 2px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+._2blcs ._1YPz_ img {
+    margin-left: 9px;
+    margin: 0px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
