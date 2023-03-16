@@ -1,0 +1,13 @@
+.cont1{
+    box-sizing: border-box;
+
+position: relative;
+width: 1566px;
+height: 625px;
+left: 0px;
+top: 222px;
+
+background: #0085FE;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 2px;
+}
