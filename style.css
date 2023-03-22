@@ -7,7 +7,8 @@
  
 }
 .midhead{
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
 }
 .box{
     display: flex;
@@ -548,11 +549,16 @@ color: #002970;
 }
 .cont4{
     display: flex;
+    flex-direction: column;
+}
+.conta4{
+    display: flex;
     flex-direction: row;
     background: #F6F6F6;
     width: auto;
-    height: 900px;
+    height: 1000px;
     justify-content: space-between;
+    padding-left: 350px;
 }
 
 .ivbox{
@@ -561,11 +567,9 @@ color: #002970;
     background-color: #FFFFFF;
     margin-top: 30px;
     border-radius: 15px;
-    margin-left: 80px;
+    margin-right: 80px;
 }
-.marginiv{
-    margin-left: 350px;
-}
+
 .marginivr{
     margin-right:350px;
 }
