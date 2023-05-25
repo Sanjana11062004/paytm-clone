@@ -1,0 +1,71 @@
+[10:05 am, 25/04/2023] Tas^2🧡: <!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p id="errorMessage" class="error-message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+[10:05 am, 25/04/2023] Tas^2🧡: .container {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}
+[10:06 am, 25/04/2023] Tas^2🧡: document.getElementById('loginForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  // Get form data
+  const username = document.getElementById('username').value;
+  const password = document.getElementById('password').value;
+
+  // Perform login validation
+  if (username === 'exampleuser' && password === 'examplepassword') {
+    // Successful login, redirect to dashboard or perform other actions
+    window.location.href = '/dashboard';
+  } else {
+    // Show error message
+    document.getElementById('errorMessage').textContent = 'Invalid username or password';
+  }
+});
