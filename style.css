@@ -8,7 +8,7 @@
 }
 .midhead{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .box{
     display: flex;
@@ -226,7 +226,7 @@ img{
     width: 100%;
 }
 .setmargin{
-    margin-left: 300px;
+    margin-left: 100px;
 }
 .setrit{
     margin-right: 200px;
@@ -313,7 +313,7 @@ img{
 .p2line{
     background-color: #00BAF2;
     border-right:170px solid #002970;
-    width : 170px;
+    width: 170px;
     height: 10px;
     margin-left: 1370px;
 }
