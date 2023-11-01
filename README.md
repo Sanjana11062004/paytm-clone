@@ -1,5 +1,9 @@
 CLICK THE LINK TO CHECK THE OUTPUT:
-https://superb-halva-90abe6.netlify.app/
+https://paytm-clone-2beq.vercel.app/
+Index page is loaded on clicking this link and whereby you can move to Investor Realtion Page and About us page created.
+Do check it!
+About us: https://paytm-clone-2beq.vercel.app/pages/aboutus.html
+Investor Relation: https://paytm-clone-2beq.vercel.app/pages/investorrelation.html
 
 
 ![ss1](https://user-images.githubusercontent.com/112110461/202904941-07291ff9-ef82-4612-acbb-0051f144a166.png)
